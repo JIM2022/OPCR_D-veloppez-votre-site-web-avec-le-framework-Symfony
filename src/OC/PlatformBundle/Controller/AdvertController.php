@@ -9,10 +9,10 @@ use Symfony\Component\HttpKernel\Exception\NotFoundHttpException;
 class AdvertController extends Controller
 {
     public function indexAction($page)
-    {
+    {/*
         if ($page < 1) {
             throw new NotFoundHttpException('Page "'.$page.'" inexistante.');
-        }
+        }*/
         // Notre liste d'annonce en dur
         $listAdverts = array(
             array(
